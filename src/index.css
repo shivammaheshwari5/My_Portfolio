@@ -12,11 +12,18 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
-
+.bg_color {
+  background-color: #21218ec2;
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
+}
+.link_hover:hover {
+  border-bottom: 2px solid white;
+  transition: 1s;
+  display: inline-block;
 }
 
 .black-gradient {
